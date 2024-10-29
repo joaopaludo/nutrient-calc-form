@@ -46,11 +46,23 @@
                     <input type="number" id="altura" name="altura" min="0" required>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group radio-group">
+                    <p>Pratica atividade física?</p>
+
+                    <div>
+                        <input type="radio" id="opcao_pratica_atividade" name="pratica_atividade" value="sim" required>
+                        <label for="sim" class="simple-text">Sim</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="opcao_pratica_atividade" name="pratica_atividade" value="nao" required>
+                        <label for="nao" class="simple-text">Não</label>
+                    </div>
+                </div>
+
+                <div class="form-group" id="atividade-form">
                     <label for="nivel-atividade" class="strong-text">Nível de atividade física</label>
 
                     <select id="nivel-atividade" name="nivel-atividade" required>
-                        <option value="sedentario">Sedentário</option>
                         <option value="pouco_ativo">Pouco ativo</option>
                         <option value="moderado">Moderado</option>
                         <option value="ativo">Ativo</option>

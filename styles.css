@@ -54,6 +54,10 @@ main {
     }
 }
 
+#atividade-form {
+    display: none;
+}
+
 input,
 select {
     padding: 0.8rem;
