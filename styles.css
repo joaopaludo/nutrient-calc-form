@@ -69,6 +69,13 @@ select {
     }
 }
 
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
 .strong-text {
     font-size: 0.9rem;
     font-weight: bold;
