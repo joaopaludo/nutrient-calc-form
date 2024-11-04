@@ -91,17 +91,23 @@ document.querySelector('#form-macros').addEventListener('submit', function (e) {
             <div class="results-section">
                 <h4 class="results-subtitle">Manutenção:</h4>
                 <p><strong>Calorias:</strong> ${Math.round(caloriasManutencao)} kcal/dia</p>
-                <p>Proteínas: ${macrosManutencao.proteinas}g, Carboidratos: ${macrosManutencao.carboidratos}g, Gorduras: ${macrosManutencao.gorduras}g</p>
+                <p>Proteínas: ${macrosManutencao.proteinas}g</p>
+                <p>Carboidratos: ${macrosManutencao.carboidratos}g</p>
+                <p>Gorduras: ${macrosManutencao.gorduras}g</p>
             </div>
             <div class="results-section">
                 <h4 class="results-subtitle">Perda de peso:</h4>
                 <p><strong>Calorias:</strong> ${Math.round(caloriasDeficit)} kcal/dia</p>
-                <p>Proteínas: ${macrosDeficit.proteinas}g, Carboidratos: ${macrosDeficit.carboidratos}g, Gorduras: ${macrosDeficit.gorduras}g</p>
+                <p>Proteínas: ${macrosDeficit.proteinas}g</p>
+                <p>Carboidratos: ${macrosDeficit.carboidratos}g</p>
+                <p>Gorduras: ${macrosDeficit.gorduras}g</p>
             </div>
             <div class="results-section">
                 <h4 class="results-subtitle">Ganho de peso:</h4>
                 <p><strong>Calorias:</strong> ${Math.round(caloriasExcesso)} kcal/dia</p>
-                <p>Proteínas: ${macrosExcesso.proteinas}g, Carboidratos: ${macrosExcesso.carboidratos}g, Gorduras: ${macrosExcesso.gorduras}g</p>
+                <p>Proteínas: ${macrosExcesso.proteinas}g</p>
+                <p>Carboidratos: ${macrosExcesso.carboidratos}g</p>
+                <p>Gorduras: ${macrosExcesso.gorduras}g</p>
             </div>
         </div>
     `;
