@@ -1,0 +1,42 @@
+#form-response {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #DBD3D3;
+    color: #091057;
+    font-family: 'Arial', sans-serif;
+    display: none;
+}
+
+.alert {
+    background-color: #EC8305;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.results-container {
+    background-color: #f7f7f7;
+    border: 1px solid #024CAA;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.results-title {
+    color: #024CAA;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.results-subtitle {
+    color: #EC8305;
+    margin-bottom: 5px;
+}
+
+.results-section {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
